@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="icon" type="image/x-icon" href="icons/icon.png">
+        <title>A platform connecting Influencers and Brands | BigBidder </title>
+        <meta content="width=device-width, initial-scale=1">
+        <!-- CSS only -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+       <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="onboarding_influencers.css">
+        
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+        <script type="text/javscript" src="control.js"></script>
+        <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+
+
+
+</head>
+    <body>
+       <section id="onboarding_brands">
+        <div class="container">
+        
+        <div class="d-flex flex-row-reverse">
+            <div class="p-2">
+                <a href="index.html"><button >BACK TO HOME</button></a>
+            </div>
+          </div>
+    </div>
+</section>
+
+
+<section id="onboarding-mid-body" style="margin-top: 3rem;">
+
+        <div class="d-flex flex-row bd-highlight mb-3">
+            <div class="p-2 bd-highlight">
+                <img src="icons/Group 77.svg">
+            </div>
+            <div class="p-2 bd-highlight onboarding-arrow">
+                <h4><</h4>
+            </div>
+            <div class="p-2 bd-highlight onboarding-arrow">
+                <h3>Let's Connect</h3>
+                <h6>Fill the form to connect with us and we will get back to</h6>
+                <h6>you as soon as possible.</h6>
+            </br>
+            </div>
+          </div>
+
+</section>
+
+
+
+<section>
+
+    <div class="container">
+        <form name="myform" id="myforms">
+        <div class="card">
+            <div class="form">
+                <div class="left-side">
+                    <div class="left-heading">
+                        <h3></h3>
+                    </div>
+                    <div class="steps-content">
+                        <h3> <span class="step-number"></span></h3>
+                        <p class="step-number-content active"></p>
+                        <p class="step-number-content d-none"></p>
+                        <p class="step-number-content d-none"></p>
+                        <p class="step-number-content d-none"></p>
+                    </div>
+                    <ul class="progress-bar">
+                        <li class="active">Onboarding</li>
+                        <li>Form</li>
+                        <li>Budget</li>
+                        <li>Communication</li>
+                        <li>Application No</li>
+                    </ul>
+                    
+    
+                    
+                </div>
+                <div class="right-side">
+                    <div class="main active">
+                        <div class="text">
+                           
+                        </div>
+                        <div class="input-text">
+                            <div class="input-div">
+                                <input type="text" required require id="user_name" placeholder="Name *">
+                                <div class="toast toastname">
+                                    <div class="toast-body">
+                                      Please enter a valid name!
+                                    </div>
+                                  </div>
+                                <span id="nameErr"></span>
+                            </div>
+                            
+                        </div>
+                        <div class="input-text">
+                            <div class="input-div">
+                                <input type="text" required require id="user_number" placeholder="Phone Number *">
+                                <div class="toast toastnumb">
+                                    <div class="toast-body">
+                                      Please enter a valid number!
+                                    </div>
+                                  </div>
+                                <span id="numloc"></span>
+                            </div>
+                        </div>
+                        <div class="input-text">
+                            <div class="input-div">
+                                <input type="text" required require id="user_email" placeholder="Email address *">
+                                <div class="toast toastemail">
+                                    <div class="toast-body">
+                                      Please enter a valid Email!
+                                    </div>
+                                  </div>
+                                <span id="numloc"></span>
+                            </div>
+                        </div>
+                        <div class="input-text">
+                            <div class="input-div">
+                                <input type="text" required require id="user_msg" placeholder="What you are looking for today? *">
+                                <div class="toast toastmsg">
+                                    <div class="toast-body">
+                                      Please enter what are you looking for!
+                                    </div>
+                                  </div>
+                                <span id="numloc"></span>
+                            </div>
+                        </div>
+                        <div class="input-text" style="padding-bottom: 20px;">
+                            <div class="input-div">
+                                <span>Hello There, Please mention <b>one of the services</b> you would like to continue with.</span>
+                            </div>
+                        </div>
+                        <div class="buttons">
+                            <button class="next_button">Continue</button>
+                        </div>
+                    </div>
+                    <div class="main">
+                        <div class="text">
+                           
+                        </div>
+                        <div class="input-text">
+                            
+                            <div class="input-div">
+                                <h6 style="margin-bottom: 40px;"><b>Choose the closest services you are looking for!</b></h6>
+
+                                <div class="form-check" style="padding-bottom: 20px;">
+                                    <input class="form-check-input" type="checkbox" value="" id="influencer_marketing" checked>
+                                    <label class="form-check-label" for="flexCheckDefault">
+                                      Influencer Marketing
+                                    </label>
+                                  </div>
+                                  <div class="form-check" style="padding-bottom: 20px;">
+                                    <input class="form-check-input" type="checkbox" value="" id="advertising">
+                                    <label class="form-check-label" for="flexCheckChecked">
+                                      Advertising
+                                    </label>
+                                  </div>
+                                  <div class="form-check" style="padding-bottom: 20px;">
+                                    <input class="form-check-input" type="checkbox" value="" id="public_relation">
+                                    <label class="form-check-label" for="flexCheckChecked">
+                                      Public Relations
+                                    </label>
+                                  </div>
+                                  <div class="form-check" style="padding-bottom: 20px;">
+                                    <input class="form-check-input" type="checkbox" value="" id="strategic_planning">
+                                    <label class="form-check-label" for="flexCheckChecked">
+                                      Strategic Planning
+                                    </label>
+                                  </div>
+                                <span></span>
+                            </div>
+                        </div>
+                        
+                        <div class="buttons button_space">
+                            <button class="next_button">Continue</button>
+                        </div>
+                    </div>
+                    
+                    
+                    
+
+                    <div class="main">
+                        <div class="text">
+                           
+                        </div>
+                        <div class="input-text">
+                            
+                            <div class="input-div">
+                                  <h3><b>What's your budget?</b></h3>
+                                            <input type="text" required require id="onboard_budget" placeholder="$0 *">
+                                            <span></span>
+                            <span></span>
+                            </div>
+                        </div>
+                        <div class="buttons button_space">
+                            <button class="next_button">Continue</button>
+                        </div>
+                    </div>
+
+
+                    
+                    <div class="main">
+                        <div class="text">
+                                    <h3><b>Prefered Mode of Communication:</b></h3>
+                                    <div class="input-text">
+                                        <div class="input-div">
+                                            <input type="text" required require id="preferedMode" placeholder="Email/Number *">
+                                            <span></span>
+                                        </div>
+                                    </div>
+                                    <h3><b>Prefered Time:</b></h3>
+                                    <div class="input-text">
+                                        <div class="input-div">
+                                            <input type="text" id="preferedTime">
+                                            <span></span>
+                                        </div>
+                                    </div>
+                        </div>
+                        
+                       
+
+                        <div class="buttons button_space">
+                            <button class="next_button" onclick="senddata()">Continue</button>
+                        </div>
+                    </div>
+
+
+                    <div class="main">
+                        <div class="text">
+                            <div class="container final-form-text text-center" style="background-color: #f26b4e; margin-bottom: 20px;">
+                                    <h3 style="color: white; padding-top: 30px;">Congratulations your data have been submitted</h3>
+                                    <p style="color: white; padding-bottom: 30px;">You will be redirected in 10 seconds.</p>
+
+                            </div>
+                        </div>
+                        
+                       
+
+                        <div class="buttons button_space">
+                            <a href="index.html"><button class="submit_button" onclick="location.href='http://www.bigbidder.in'">Continue</button></a> 
+                        </div>
+                    </div>
+
+
+                     <!-- <div class="main">
+                         <svg class="checkmark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 52">
+                             <circle class="checkmark__circle" cx="26" cy="26" r="25" fill="none"/>
+                            <path class="checkmark__check" fill="none" d="M14.1 27.2l7.1 7.2 16.7-16.8"/>
+                        </svg>
+                         
+                       
+                    </div> -->
+                     
+                </div>
+            </div>
+        </div>
+    </form>
+    </div>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+    <script type="text/javascript" src="control.js"></script>
+    </body>
+</html>
