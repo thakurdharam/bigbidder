@@ -241,7 +241,7 @@ function init(msg){
     fetch('https://analytics.funnearn.com/help/api/influencers/bbSendMail', {
         
         method: 'POST',
-        mode:"cors",
+        mode:"no-cors",
         credentials:"same-origin",
         redirect:"follow",
         referrerPolicy:"no-referrer",
